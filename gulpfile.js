@@ -5,9 +5,9 @@ var less = require('gulp-less');
 var gutil = require('gulp-util');
 
 gulp.task('less', function () {
-  gulp.src(['public/less/yui.less', 'public/less/style.less'])
+  gulp.src(['less/sense.less', 'less/style.less'])
     .pipe(less())
-    .pipe(gulp.dest('public/css'))
+    .pipe(gulp.dest('css'))
     .on('error', gutil.log);
 });
 
