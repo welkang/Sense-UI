@@ -2,7 +2,6 @@
 var path = require('path');
 var gulp = require('gulp');
 var less = require('gulp-less');
-var watch = require('gulp-watch');
 var gutil = require('gulp-util');
 
 gulp.task('less', function () {

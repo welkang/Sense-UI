@@ -1,16 +1,18 @@
 {
-    "name": "Sense UI",
-    "version": "0.0.1",
-    "description": "",
-    "dependencies": {
-    },
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:welkang/Sense-UI.git"
-    },
-    "author": "welkang",
-    "license": "BSD",
-    "devDependencies": {
-    },
-    "optionalDependencies": {}
+  "name": "Sense-UI",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-less": "^3.0.1",
+    "gulp-util": "^3.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:welkang/Sense-UI.git"
+  },
+  "author": "welkang",
+  "license": "BSD",
+  "devDependencies": {},
+  "optionalDependencies": {}
 }
